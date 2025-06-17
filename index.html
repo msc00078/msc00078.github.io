@@ -5,16 +5,51 @@
   <title>MSC00078 · Portfolio</title>
   <style>
     body {
-      font-family: sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       padding: 2em;
-      max-width: 700px;
+      max-width: 900px;
       margin: auto;
+      background-color: #f9f9f9;
+      color: #2c3e50;
     }
-    h1 { color: #2c3e50; }
-    ul { line-height: 1.6; }
+    h1, h2, h3 {
+      color: #34495e;
+    }
+    h1 {
+      font-size: 2em;
+    }
+    a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    section {
+      background: white;
+      padding: 1.5em;
+      margin-top: 2em;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+    ul {
+      line-height: 1.8;
+    }
+    .timeline {
+      border-left: 4px solid #3498db;
+      padding-left: 1em;
+      margin-top: 1em;
+    }
+    .year-block {
+      margin-bottom: 1.5em;
+    }
+    .emoji {
+      font-size: 1.2em;
+    }
   </style>
 </head>
 <body>
+
   <h1>👋 ¡Hola! Soy estudiante de Ingeniería Informática (UJA)</h1>
   <p>Este es mi sitio personal donde comparto:</p>
   <ul>
@@ -23,5 +58,31 @@
     <li>Contacto y redes</li>
   </ul>
   <p>🔗 <a href="https://www.linkedin.com/in/msc00078" target="_blank">Mi LinkedIn</a></p>
+
+  <section>
+    <h2>📘 Trayectoria</h2>
+    <div class="timeline">
+      
+      <div class="year-block">
+        <h3>🎓 Antes de 2020</h3>
+        <ul>
+          <li>Estudié Bachillerato en el Colegio Altocastillo (Jaén)</li>
+          <li>Obtuve el título de <strong>C1 de inglés</strong> y <strong>B1 de francés</strong></li>
+          <li>Competí en hípica, logrando <strong>3 podios en el Campeonato de España 2017</strong></li>
+        </ul>
+      </div>
+
+      <div class="year-block">
+        <h3>🖥️ Desde 2020</h3>
+        <ul>
+          <li>Estudio Ingeniería Informática en la <strong>Universidad de Jaén (UJA)</strong></li>
+          <li>Desarrollo habilidades en programación, bases de datos y tecnologías web</li>
+          <li>Participo en proyectos personales y colaborativos</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
 </body>
 </html>
